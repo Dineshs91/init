@@ -13,3 +13,8 @@ Exclude matching string using grep. Use `v` argument with grep.
     tail -f access.log | grep -v 'HEAD'
 
 This will exclude all the HEAD requests from `access.log` file.
+
+## Find the pid of a process by name
+
+    pgrep celery
+    
