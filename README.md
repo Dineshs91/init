@@ -18,3 +18,17 @@ This will exclude all the HEAD requests from `access.log` file.
 
     pgrep celery
     
+## sshconfig
+
+`~/.ssh/config` - Create this file if doesn't exist.
+
+Add the following contents
+
+```
+Host dev-machine
+    HostName dev.example.com
+    Port 22
+    User apps
+```
+
+You can invoke ssh as `ssh dev-machine`
