@@ -32,3 +32,9 @@ Host dev-machine
 ```
 
 You can invoke ssh as `ssh dev-machine`
+
+## Pgrep and kill the process with a single command
+
+`pgrep flower | xargs kill`
+
+
