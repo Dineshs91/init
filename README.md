@@ -37,4 +37,10 @@ You can invoke ssh as `ssh dev-machine`
 
 `pgrep flower | xargs kill`
 
+## Run a command in background with a single command
 
+`flower -A blog &`
+
+`&` sends the job to background.
+
+You can check the background jobs using `jobs`
