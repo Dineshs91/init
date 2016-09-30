@@ -52,3 +52,14 @@ The fuser command is a very smart unix utility used to find which process is usi
 `fuser -n tcp 80`
 
 Lists all the processes that are using port 80.
+
+## strace (Linux) or dtruss (OS X)
+
+**strace**
+It intercepts and records the system calls which are called
+by a process and the signals which are received by a process.  The
+name of each system call, its arguments and its return value are
+printed on standard error or to the file specified with the -o
+option.
+
+`strace -p 1234`
