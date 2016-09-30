@@ -44,3 +44,11 @@ You can invoke ssh as `ssh dev-machine`
 `&` sends the job to background.
 
 You can check the background jobs using `jobs`
+
+## Fuser
+
+The fuser command is a very smart unix utility used to find which process is using a file, a directory or a socket. It also gives information about the user owning the process and the type of access. The fuser tool displays the process id(PID) of every process using the specified files or file systems.
+
+`fuser -n tcp 80`
+
+Lists all the processes that are using port 80.
