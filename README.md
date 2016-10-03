@@ -63,3 +63,9 @@ printed on standard error or to the file specified with the -o
 option.
 
 `strace -p 1234`
+
+## List all the files opened by a process
+
+`ls /proc/30880/fd`
+
+where 30880 is the PID.
