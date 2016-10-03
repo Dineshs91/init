@@ -69,3 +69,18 @@ option.
 `ls /proc/30880/fd`
 
 where 30880 is the PID.
+
+## /dev/pts (Linux)
+
+```
+> tty
+/dev/pts/0
+```
+
+Switch to another console.
+
+```
+echo "Hello World !" > /dev/pts/0
+```
+
+The text "Hello World !" would be printed in the first terminal.
