@@ -84,3 +84,7 @@ echo "Hello World !" > /dev/pts/0
 ```
 
 The text "Hello World !" would be printed in the first terminal.
+
+## Come out of a broken ssh session.
+
+Press `Enter` `~` `.`
