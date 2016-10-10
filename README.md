@@ -64,6 +64,10 @@ option.
 
 `strace -p 1234`
 
+## strace to find out all open system calls
+
+`strace -e open bash`
+
 ## List all the files opened by a process
 
 `ls /proc/30880/fd`
