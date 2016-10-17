@@ -33,3 +33,7 @@
 ### Add a tag to a docker image
 
 `docker tag <image-id> dineshs91`
+
+### Get a bash shell for the container
+
+`docker exec -it <container-id> /bin/bash`
