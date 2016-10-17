@@ -14,3 +14,10 @@
 
 `docker ps -a`
 
+### Stop a container
+
+`docker stop <container-id>`
+
+### Remove containers
+
+`docker rm <container-id>`
