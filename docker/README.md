@@ -29,3 +29,7 @@
 ### Remove docker images
 
 `docker rmi <image-id>`
+
+### Add a tag to a docker image
+
+`docker tag <image-id> dineshs91`
