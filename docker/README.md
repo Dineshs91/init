@@ -41,3 +41,9 @@ Local paths have to be relative. Absolute paths don't work.
 ### Get a bash shell for the container
 
 `docker exec -it <container-id> /bin/bash`
+
+## Docker compose
+
+### Run docker compose in detached mode
+
+`docker-compose up -d`
