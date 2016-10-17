@@ -1,3 +1,7 @@
+**NOTE:** 
+
+Local paths have to be relative. Absolute paths don't work.
+
 ### Create docker image
 
 `docker build -t dineshs91/cqrs .`
