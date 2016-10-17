@@ -21,3 +21,11 @@
 ### Remove containers
 
 `docker rm <container-id>`
+
+### Remove all containers
+
+`docker rm $(docker ps -aq)`
+
+### Remove docker images
+
+`docker rmi <image-id>`
