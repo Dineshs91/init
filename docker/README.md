@@ -52,3 +52,6 @@ Local paths have to be relative. Absolute paths don't work.
 
 `docker-compose run web bash`
 
+### Bring the containers up (After rebuild)
+
+`docker-compose up --build`
