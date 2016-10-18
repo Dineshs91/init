@@ -47,3 +47,8 @@ Local paths have to be relative. Absolute paths don't work.
 ### Run docker compose in detached mode
 
 `docker-compose up -d`
+
+### Get a shell from docker compose
+
+`docker-compose run web bash`
+
