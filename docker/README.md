@@ -42,6 +42,10 @@ Local paths have to be relative. Absolute paths don't work.
 
 `docker exec -it <container-id> /bin/bash`
 
+### Check the logs of a container
+
+`docker logs <container-id>`
+
 ## Docker compose
 
 ### Run docker compose in detached mode
