@@ -59,3 +59,7 @@ Local paths have to be relative. Absolute paths don't work.
 ### Bring the containers up (After rebuild)
 
 `docker-compose up --build`
+
+### Status of the containers from compose
+
+`docker-compose ps`
