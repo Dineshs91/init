@@ -19,3 +19,7 @@
 ### Get process name/pid and user id
 
 `netstat -nltp`
+
+### Display only established connections
+
+`netstat -atnp | grep ESTA`
