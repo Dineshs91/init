@@ -1,0 +1,21 @@
+## Netstat
+
+### Kernel routing table
+
+`netstat -nr`
+
+### Display interface statistics
+
+`netstat -i`
+
+### Display connections
+
+`netstat -ta`
+
+### List out only listening connections
+
+`netstat -tnl`
+
+### Get process name/pid and user id
+
+`netstat -nltp`
