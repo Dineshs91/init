@@ -92,3 +92,11 @@ The text "Hello World !" would be printed in the first terminal.
 ## Come out of a broken ssh session.
 
 Press `Enter` `~` `.`
+
+## Compare and generate a diff between 2 directories
+
+`diff -ru dir1/ dir2`
+
+For just the files that have changes
+
+`diff -rqu dir1/ dir2`
