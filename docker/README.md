@@ -46,6 +46,10 @@ Local paths have to be relative. Absolute paths don't work.
 
 `docker logs <container-id>`
 
+### Running logs of a container
+
+`docker logs -f <container-id>`
+
 ## Docker compose
 
 ### Run docker compose in detached mode
