@@ -100,3 +100,9 @@ Press `Enter` `~` `.`
 For just the files that have changes
 
 `diff -rqu dir1/ dir2`
+
+## Create a named pipe
+
+`mkfifo my_pipe`
+
+This is similar to shell pipe `|` but uses a file instead.
