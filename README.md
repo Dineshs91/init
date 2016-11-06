@@ -113,4 +113,8 @@ This is similar to shell pipe `|` but uses a file instead.
 
 `xargs --null --max-args=1 < /proc/self/environ`
 
+## Print the current tty 
 
+The tty command returns the filename of the terminal connected to standard input
+
+`tty`
