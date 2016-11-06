@@ -118,3 +118,11 @@ This is similar to shell pipe `|` but uses a file instead.
 The tty command returns the filename of the terminal connected to standard input
 
 `tty`
+
+## Get the PID of the current shell
+
+`echo $$`
+
+## Go back to the previous directory in bash shell
+
+`cd -`
