@@ -106,3 +106,11 @@ For just the files that have changes
 `mkfifo my_pipe`
 
 This is similar to shell pipe `|` but uses a file instead.
+
+## Display the env variables of a running process
+
+[Source](http://serverfault.com/a/66366)
+
+`xargs --null --max-args=1 < /proc/self/environ`
+
+
