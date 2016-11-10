@@ -23,3 +23,7 @@
 ### Display only established connections
 
 `netstat -atnp | grep ESTA`
+
+### Find out which process occupies the port
+
+`lsof -nP | grep LISTEN`
