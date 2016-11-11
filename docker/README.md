@@ -50,6 +50,10 @@ Local paths have to be relative. Absolute paths don't work.
 
 `docker logs -f <container-id>`
 
+### Copy content from a container 
+
+`docker cp <containerId>:/file/path/within/container /host/path/target`
+
 ## Docker compose
 
 ### Run docker compose in detached mode
