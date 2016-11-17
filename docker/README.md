@@ -22,6 +22,10 @@ Local paths have to be relative. Absolute paths don't work.
 
 `docker stop <container-id>`
 
+### Restart a container
+
+`docker restart <container-id>`
+
 ### Remove containers
 
 `docker rm <container-id>`
