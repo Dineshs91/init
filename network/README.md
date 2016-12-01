@@ -27,3 +27,10 @@
 ### Find out which process occupies the port
 
 `lsof -nP | grep LISTEN`
+
+
+### Clear DNS cache on OS X (Yosemite, El captain and Sierra)
+
+`sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder`
+
+For other check this [article](https://support.opendns.com/hc/en-us/articles/227988627-Clearing-the-DNS-Cache-on-Computers-and-Web-Browsers)
