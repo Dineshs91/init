@@ -34,3 +34,7 @@
 `sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder`
 
 For other check this [article](https://support.opendns.com/hc/en-us/articles/227988627-Clearing-the-DNS-Cache-on-Computers-and-Web-Browsers)
+
+### Find all available ip's in local network
+
+`nmap -sn 192.168.0.1/24`
