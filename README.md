@@ -126,3 +126,9 @@ The tty command returns the filename of the terminal connected to standard input
 ## Go back to the previous directory in bash shell
 
 `cd -`
+
+## Change the shell for an user
+
+`usermod -s /bin/bash <username>`
+
+`chsh -s /bin/bash`
