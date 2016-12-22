@@ -38,3 +38,11 @@ For other check this [article](https://support.opendns.com/hc/en-us/articles/227
 ### Find all available ip's in local network
 
 `nmap -sn 192.168.0.1/24`
+
+### List DNS servers
+
+`cat /etc/resolv.conf`
+
+### Get the public ip address
+
+`ip addr`
