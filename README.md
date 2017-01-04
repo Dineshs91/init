@@ -132,3 +132,11 @@ The tty command returns the filename of the terminal connected to standard input
 `usermod -s /bin/bash <username>`
 
 `chsh -s /bin/bash`
+
+## List all the directories with their size
+
+`sudo du -hs *`
+
+## List all the files with their size
+
+`sudo du -h .`
