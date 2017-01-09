@@ -75,3 +75,7 @@ Local paths have to be relative. Absolute paths don't work.
 ### Status of the containers from compose
 
 `docker-compose ps`
+
+### Check the stats for docker
+
+`docker stats`
