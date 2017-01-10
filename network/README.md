@@ -28,6 +28,8 @@
 
 `lsof -nP | grep LISTEN`
 
+`netstat -an | grep LISTEN`
+
 
 ### Clear DNS cache on OS X (Yosemite, El captain and Sierra)
 
