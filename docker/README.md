@@ -79,3 +79,7 @@ Local paths have to be relative. Absolute paths don't work.
 ### Check the stats for docker
 
 `docker stats`
+
+### Disconnect docker engine connected to the swarm (Swarm mode)
+
+`eval $(docker-machine env -u)`
