@@ -140,3 +140,11 @@ The tty command returns the filename of the terminal connected to standard input
 ## List all the files with their size
 
 `sudo du -h .`
+
+## OS X device block size
+
+`diskutil info / | grep "Block Size"`
+
+## OS X file system block size
+
+`stat -f %k .`
