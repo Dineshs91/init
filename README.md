@@ -63,6 +63,10 @@ To only display the pid's use the terse option.
 
 `lsof -t -i tcp:3000`
 
+Also another usage
+
+`lsof -i :3000`
+
 ## strace (Linux) or dtruss (OS X)
 
 **strace**
