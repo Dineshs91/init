@@ -57,6 +57,12 @@ Lists all the processes that are using port 80.
 
 List the pids of the process listening on port 3000.
 
+`lsof -i tcp:3000`
+
+To only display the pid's use the terse option.
+
+`lsof -t -i tcp:3000`
+
 ## strace (Linux) or dtruss (OS X)
 
 **strace**
