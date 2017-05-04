@@ -162,3 +162,7 @@ The tty command returns the filename of the terminal connected to standard input
 ## OS X file system block size
 
 `stat -f %k .`
+
+## Get distro info on linux
+
+`cat /etc/issue`
