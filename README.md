@@ -166,3 +166,7 @@ The tty command returns the filename of the terminal connected to standard input
 ## Get distro info on linux
 
 `cat /etc/issue`
+
+## iotop
+
+Input/Output stats
