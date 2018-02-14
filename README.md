@@ -170,3 +170,11 @@ The tty command returns the filename of the terminal connected to standard input
 ## iotop
 
 Input/Output stats
+
+## Clear bash cmd location hash
+
+The following will clear where bash thinks fab is located:
+
+`hash -d fab`
+
+This command updates the shell's hash of locations of commands
